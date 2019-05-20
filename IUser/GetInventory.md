@@ -15,7 +15,7 @@ API key required.
 
 Parameter | Type | Required   | Description
 --------- | -----| :--------: | -----------
-app_id | int | + | Internal App ID (see [ITrade/GetApps](/ITrade/GetApps.md))
+app_id | int | + | Internal App ID (see [ITrade/GetApps](/ITrade/GetApps.md)) (Multiple app_ids possible, e.g. '1,16,22,15,44,19')
 page | int |  | Page number in response (starting with 1, defaults to 1) 
 per_page | int | | Number of items per_page in response (no more than 500)
 search | string | | Additional search by item's name 
